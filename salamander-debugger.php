@@ -63,7 +63,7 @@ if ( ! function_exists( 'print_filters_for' ) ) {
 		}
 		print PHP_EOL . "<pre style='color: #1A237E; background: #eee; border: 1px dashed #bbb; padding: 10px;'>" . PHP_EOL;
 		print_r( $wp_filter[ $hook ] ); // phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_print_r.
-		pecho PHP_EOL . "</pre>" . PHP_EOL;
+		echo PHP_EOL . "</pre>" . PHP_EOL;
 	}
 }
 
